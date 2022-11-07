@@ -5,16 +5,22 @@ My tests repository studies
 [![Tests](https://github.com/uadson/testing/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/uadson/testing/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/uadson/testing/branch/main/graph/badge.svg?token=FKKTAZMMBP)](https://codecov.io/gh/uadson/testing)
 
-##### running tests
+##### running tests - overview
 
 commands:
 
-	pytest
+	- command main
+		pytest 
 
-	pytest <path>
+	- specific
+		pytest <path>
 
-	pytest -v
-
-	pytest --collect-only (without running test)
-
+	- with previews of test files
+		pytest -v
 	
+	- identifying test files without running them
+		pytest --collect-only (without running test)
+
+	- viewing test coverage
+
+		pytest --cov=<path> or pytest --cov= .
