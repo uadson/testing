@@ -5,6 +5,12 @@ My tests repository studies
 [![Tests](https://github.com/uadson/testing/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/uadson/testing/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/uadson/testing/branch/main/graph/badge.svg?token=FKKTAZMMBP)](https://codecov.io/gh/uadson/testing)
 
+
+
+<a href="https://codecov.io/gh/uadson/testing" > 
+ <img src="https://codecov.io/gh/uadson/testing/branch/main/graphs/sunburst.svg?token=${{ secrets.GRAPH }}"/> 
+</a>
+
 ##### running tests - overview
 
 commands:
