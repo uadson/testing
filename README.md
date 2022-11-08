@@ -8,7 +8,7 @@ My tests repository studies
 
 
 <a href="https://codecov.io/gh/uadson/testing" > 
- <img src="https://codecov.io/gh/uadson/testing/branch/main/graphs/sunburst.svg?token=${{ secrets.GRAPH }}"/> 
+ <img src="https://codecov.io/gh/uadson/testing/branch/main/graphs/sunburst.svg?token=qGLnwWiEGp"/> 
 </a>
 
 ##### running tests - overview
