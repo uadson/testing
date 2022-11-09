@@ -1,6 +1,12 @@
+from time import sleep
+
+
 class Connection:
     
-    def get_engine(self):
+    def __init__(self):
+        sleep(1)
+    
+    def gen_session(self):
         return Session()
         
     def close(self):
