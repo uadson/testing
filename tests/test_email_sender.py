@@ -1,6 +1,6 @@
 import pytest
 
-from app.core import Sender, InvalidEmail
+from ..app.core import Sender, InvalidEmail
 
 
 def test_create_email_sender():

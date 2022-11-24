@@ -1,5 +1,5 @@
 import pytest
-from app.database import Connection
+from ..app.database import Connection
     
 
 @pytest.fixture(scope='session')

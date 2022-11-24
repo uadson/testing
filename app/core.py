@@ -24,21 +24,21 @@ class InvalidEmail(Exception):
     pass
 
 
-class MockSender(Sender):
+# class MockSender(Sender):
     
-    def __init__(self):
-        self.amount_emails_sent = 0
-        self.send_param = None
+#     def __init__(self):
+#         self.amount_emails_sent = 0
+#         self.send_param = None
         
-    def send(
-        self,
-        senders: str,
-        receivers: str,
-        subject: str,
-        content: str
-    ):
-        self.send_param = (senders, receivers, subject, content)
-        self.amount_emails_sent += 1
+#     def send(
+#         self,
+#         senders: str,
+#         receivers: str,
+#         subject: str,
+#         content: str
+#     ):
+#         self.send_param = (senders, receivers, subject, content)
+#         self.amount_emails_sent += 1
     
 
 class SpamSender:
