@@ -11,7 +11,3 @@ def get_github_avatar(user):
     url = f"https://api.github.com/users/{user}"
     response = requests.get(url)
     return response.json()['avatar_url']
-
-
-if __name__ == '__main__':
-    get_github_avatar('uadson')
